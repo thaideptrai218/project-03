@@ -267,6 +267,7 @@ a {
 .service-item:hover .service-item__icon {
     color: #fff;
     background-color: #2e80ce;
+    box-shadow: 0px 8px 16px rgba(40, 155, 222, 0.15);
 }
 
 .service-item__icon {
@@ -303,4 +304,76 @@ a {
 
 .service__btn {
     margin-top: 55px;
+}
+
+/* Work */
+.work {
+    padding: 100px 0;
+    background: #f7fbff;
+}
+
+.work__heading {
+    color: #10375c;
+}
+
+.work__desc {
+    margin-top: 18px;
+    color: #575f66;
+}
+
+.work__list {
+    margin-top: 86px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.work-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 400px;
+    background: #eaf6ff;
+    border-radius: 4px;
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    background: #2e80ce;
+    transform: translateY(-16px);
+}
+
+.work-item:hover .work-item__link {
+    font-weight: 400;
+    color: #2e80ce;
+}
+
+.work-item__body {
+    width: 338px;
+    height: 370px;
+    padding: 44px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.work-item__heading {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 2.6rem;
+    color: #10375c;
+}
+
+.work-item__link,
+.work-item__desc {
+    margin-top: 28px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575f66;
+}
+
+.work-item__link {
+    display: inline-block;
+    margin-top: 18px;
 }
