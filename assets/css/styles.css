@@ -671,7 +671,6 @@ a {
     padding: 100px;
     background: #f7fbff;
     text-align: center;
-    
 }
 
 .cta__heading {
@@ -682,6 +681,7 @@ a {
 
 .cta__heading::after {
     position: absolute;
+    margin-top: 18px;
     right: 50%;
     display: block;
     content: "";
@@ -700,4 +700,141 @@ a {
 
 .cta__btn {
     margin-top: 38px;
+}
+
+/* footer */
+.footer {
+    padding-top: 100px;
+    background: #10375c;
+}
+
+.footer__row {
+    display: flex;
+    gap: 78px;
+}
+
+.column__social,
+.column__logo {
+    flex: 2;
+}
+/* column 1 */
+.column__item {
+    flex: 1;
+}
+
+.column__logo-desc {
+    max-width: 336px;
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #a9b3bb;
+}
+
+/* column 2 */
+.column__heading {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.column__heading-bottom {
+    margin-top: 20px;
+}
+
+.column-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column-info a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #a9b3bb;
+}
+
+/* Column 4 */
+.social {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.social__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: #ffffff;
+    color: #2e80ce;
+    transition: 0.25s;
+}
+
+.social__circle:hover {
+    background-color: #2e80ce;
+    color: #fff;
+}
+
+.column-info {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #a9b3bb;
+}
+
+.column__subscription {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.form {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #9ca8b1;
+}
+
+.input {
+    height: 46px;
+    padding: 10px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: 2px solid #406181;
+}
+
+.column__btn {
+    min-width: 108px;
+    line-height: 46px;
+    text-align: center;
+    background: #2e80ce;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer__separate {
+    margin-top: 28px;
+    height: 1px;
+    background: #406181;
+}
+
+.footer__copyright {
+    padding: 28px 0 42px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #aab3ba;
 }
