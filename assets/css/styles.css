@@ -526,6 +526,7 @@ a {
     border: 1px solid #575f66;
     color: #575f66;
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .member__control-btn:hover {
@@ -536,4 +537,45 @@ a {
 
 .member__control-btn-previous {
     rotate: 180deg;
+}
+
+/* App */
+.mobile__illustration {
+    position: relative;
+    display: flex;
+    padding: 76px 70px;
+    background: #2e80ce;
+    border-radius: 4px;
+}
+
+.mobile__img-block {
+    flex: 3;
+}
+
+.mobile__img {
+    position: absolute;
+    bottom: 0;
+    width: 284px;
+    height: 522px;
+    object-fit: contain;
+}
+
+.mobile__body {
+    flex: 4;
+}
+
+.mobile__heading {
+    color: #fff;
+}
+
+.mobile__desc {
+    margin-top: 18px;
+    color: #fff;
+}
+
+.mobile__row {
+    margin-top: 38px;
+    gap: 28px;
+    display: flex;
+    align-items: center;
 }
